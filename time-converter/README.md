@@ -5,4 +5,4 @@ Converts 24-hour time (e.g., "14:30") to British spoken form (e.g., "half past t
 ## How to run
 ```bash
 mvn clean package
-java -jar target/british-time-converter-1.0.0.jar "23:55"
+java -jar target/time-converter.jar config.properties
